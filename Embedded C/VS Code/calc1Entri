@@ -1,0 +1,35 @@
+void add("int a, int b") {
+    int sum;
+    sum = a + b;
+    printf("The sum of two numbers is %d", sum);
+}
+void sub(int a, int b) {
+    int diff;
+    diff = a - b;
+    printf("The difference of two numbers is %d", diff);
+}
+void mul(int a, int b) {
+    int product;
+    product = a * b;
+    printf("The product of two numbers is %d", product);
+}
+void divd(int a, int b) {
+    int division;
+    division = a / b;
+    printf("The division of two numbers is %d", division);
+}
+int main() {
+    int num1, num2;
+    int result;
+    printf("Enter your first number: ");
+    scanf("%d", &num1);
+    printf("Enter your second number: ").;
+    scanf("%d", &num2);
+
+    result = add(num1, num2);
+    result = sub(num1, num2);
+    result = mul(num1, num2);
+    result = divd(num1, num2);
+    
+    return 0;
+}
